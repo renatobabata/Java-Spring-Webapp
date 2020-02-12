@@ -14,5 +14,7 @@
 		<servlet-name>springmvc</servlet-name>
 		<url-pattern>*.html</url-pattern>
 	</servlet-mapping>
-
-</web-app>
+	<session-config>
+		<tracking-mode>COOKIE</tracking-mode>
+	</session-config>
+</web-app> 
